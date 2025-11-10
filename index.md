@@ -33,19 +33,19 @@ This section provides a walkthrough of the Wonkes user interface and its capabil
 
 The landing page is presented to users when they visit the top-level URL to the site.
 
-![](images/landing-page.png)
+![](images/landing-page-wonkes.png)
 
-### Index pages (Add Listings, User Page)
+### Index pages (Add Listings, About Us)
 
 Wonkes provides three public pages that present the contents of the database organized in various ways.
 
-The Add Listings page allows users to easily add their own listings for others to view:
+The View Listings page allows users to easily view and filter all listing on the site:
 
-![](images/profiles-page.png)
+![](images/view-listing-wonkes.png)
 
-The User page allows users to view their account details and updatings on their offers/pending offers
+The About Us page explains our mission to create a convenient and sustainable platform for Manoa students.
 
-![](images/profiles-page.png)
+![](images/about-us-wonkes.png)
 
 
 
@@ -53,24 +53,18 @@ The User page allows users to view their account details and updatings on their 
 
 Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
 
-![](images/signin-page.png)
+![](images/login-wonkes.png)
 
 Alternatively, you can select "Sign up" to go to the following page and register as a new user:
 
-![](images/signup-page.png)
+![](images/signup-wonkes.png)
 
-### User Home page
 
-After signing in, you’ll be directed to your User Page, where you can view and edit your profile details, as well as manage your active listings:
+### Viewing Listings
 
-![](images/home-page.png)
+Once logged in, you can view listings and place offers on your desired item!
 
-### Add listing page
-
-Once logged in, you can create new items for sale using the Add Listing page.
-Fill out the form a title, description, price, category, and condition to publish your listing:
-
-![](images/add-project-page.png)
+![](images/listing-example-wonkes.png)
 
 
 ## Community Feedback
@@ -118,6 +112,29 @@ $ npm run dev
 ```
 
 If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000).
+
+#### ESLint
+
+Wonkes includes a [.eslintrc](https://github.com/Wonkes/Wonkes/blob/main/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
+
+```
+npm run lint
+```
+
+Here is sample output indicating that no ESLint errors were detected:
+
+```
+$ npm run lint
+
+> Wonkes@ lint /Users/philipjohnson/github/Wonkes/Wonkes/app
+> eslint --quiet --ext .jsx --ext .js ./imports ./tests
+
+$
+```
+
+ESLint should run without generating any errors.
+
+It's significantly easier to do development with ESLint integrated directly into your IDE (such as IntelliJ).
 
 <!-- ### Application Design
 
