@@ -1,10 +1,10 @@
-title: BowFolios
+title: Wonkes-Manoa
 description: Profiles, Projects, and Interests for the UH Community
 google_analytics:
 show_downloads: false
 theme: jekyll-theme-cayman
 github:
   is_project_page: true
-  repository_url: https://github.com/bowfolios/bowfolios
+  repository_url: https://github.com/wonkes-manoa/wonkes-manoa.github.io
 gems:
   - jekyll-mentions
