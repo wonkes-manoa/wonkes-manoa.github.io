@@ -85,7 +85,7 @@ We are interested in your experience using Wonkes!  If you would like, please ta
 
 ## Developer Guide
 
-This section provides information of interest to Meteor developers wishing to use this code base as a basis for their own development tasks.
+This section provides information of interest to Postgres developers wishing to use this code base as a basis for their own development tasks.
 
 ### Installation
 
@@ -297,7 +297,7 @@ The following sections document the development history of Wonkes.
 
 Milestone 1 was managed using [BowFolio GitHub Project Board M1](https://github.com/Wonkes/Wonkes/projects/1):
 
-![](images/project-board-1.png)<!--> 
+![](images/project-board-1.png) --> 
 
 TBA
 
@@ -354,4 +354,5 @@ There are a number of simple enhancements you can make to the system to become b
 ## Team
 
 Wonkes is designed, implemented, and maintained by Andrew Narciso, Brian Kim, Darilyn Evangelista, Joshua Omori, and Yuhang Wu.
+
 
