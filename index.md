@@ -6,13 +6,13 @@
 * [User Guide](#user-guide)
 * [Community Feedback](#community-feedback)
 * [Developer Guide](#developer-guide)
+* [Team](#team)
 <!--
 * [Development History](#development-history)
 * [Continuous Integration](#continuous-integration)
 * [Walkthrough videos](#walkthrough-videos)
 * [Example enhancements](#example-enhancements)
 -->
-* [Team](#team)
 
 ## Overview
 
@@ -354,3 +354,4 @@ There are a number of simple enhancements you can make to the system to become b
 ## Team
 
 Wonkes is designed, implemented, and maintained by Andrew Narciso, Brian Kim, Darilyn Evangelista, Joshua Omori, and Yuhang Wu.
+
