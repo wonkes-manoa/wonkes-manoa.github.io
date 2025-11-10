@@ -22,7 +22,7 @@ With this tech stack, this is what we are implementing:
 * Initialization code to define users, listings, and category tags
 * Use of bootstrap and typescript components to implement/manage a responsive layout with interactive elements
 * A secure sign-up/sign-in page allowing the user permissions and access based on their role.
-* Authorization examples: certain pages are public (View listings, Login Page), while other pages require login (Admin Dashboard).
+* Authorization examples: certain pages are public (View Listings, Login Page), while other pages require login (Admin Dashboard).
 
 ## User Guide
 
@@ -373,6 +373,7 @@ There are a number of simple enhancements you can make to the system to become b
 ## Team
 
 Wonkes is designed, implemented, and maintained by Andrew Narciso, Brian Kim, Darilyn Evangelista, Joshua Omori, and Yuhang Wu.
+
 
 
 
