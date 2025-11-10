@@ -33,28 +33,38 @@ This section provides a walkthrough of the Wonkes user interface and its capabil
 
 The landing page is presented to users when they visit the top-level URL to the site.
 
-![](images/landing-page.png)
+![](images/landing-page-wonkes.png)
+
+### Index pages (Add Listings, About Us)
+
+Wonkes provides three public pages that present the contents of the database organized in various ways.
+
+The View Listings page allows users to easily view and filter all listing on the site:
+
+![](images/view-listing-wonkes.png)
+
+The About Us page explains our mission to create a convenient and sustainable platform for Manoa students.
+
+![](images/about-us-wonkes.png)
+
+
 
 ### Sign in and sign up
 
 Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
 
-![](images/signin-page.png)
+![](images/login-wonkes.png)
 
 Alternatively, you can select "Sign up" to go to the following page and register as a new user:
 
-![](images/signup-page.png)
+![](images/signup-wonkes.png)
 
-### Index pages (View Listings, Add Listings, User Page)
 
-Wonkes provides three public pages that present the contents of the database organized in various ways.
+### Viewing Listings
 
-The View Listings page allows users to easily view other's listings:
-![](images/view-listings-page.png)
+Once logged in, you can view listings and place offers on your desired item!
 
-The Add Listings page allows users to easily add their own listings for others to view:
-
-![](images/add-project-page.png)
+![](images/listing-example-wonkes.png)
 
 The User page allows users to view their account details and updatings on their offers/pending offers
 
@@ -106,6 +116,29 @@ $ npm run dev
 ```
 
 If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000).
+
+#### ESLint
+
+Wonkes includes a [.eslintrc](https://github.com/Wonkes/Wonkes/blob/main/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
+
+```
+npm run lint
+```
+
+Here is sample output indicating that no ESLint errors were detected:
+
+```
+$ npm run lint
+
+> Wonkes@ lint /Users/philipjohnson/github/Wonkes/Wonkes/app
+> eslint --quiet --ext .jsx --ext .js ./imports ./tests
+
+$
+```
+
+ESLint should run without generating any errors.
+
+It's significantly easier to do development with ESLint integrated directly into your IDE (such as IntelliJ).
 
 <!-- ### Application Design
 
