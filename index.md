@@ -35,20 +35,6 @@ The landing page is presented to users when they visit the top-level URL to the 
 
 ![](images/landing-page.png)
 
-### Index pages (Add Listings, User Page)
-
-Wonkes provides three public pages that present the contents of the database organized in various ways.
-
-The Add Listings page allows users to easily add their own listings for others to view:
-
-![](images/profiles-page.png)
-
-The User page allows users to view their account details and updatings on their offers/pending offers
-
-![](images/profiles-page.png)
-
-
-
 ### Sign in and sign up
 
 Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
@@ -59,18 +45,20 @@ Alternatively, you can select "Sign up" to go to the following page and register
 
 ![](images/signup-page.png)
 
-### User Home page
+### Index pages (View Listings, Add Listings, User Page)
 
-After signing in, you’ll be directed to your User Page, where you can view and edit your profile details, as well as manage your active listings:
+Wonkes provides three public pages that present the contents of the database organized in various ways.
 
-![](images/home-page.png)
+The View Listings page allows users to easily view other's listings:
+![](images/view-listings-page.png)
 
-### Add listing page
-
-Once logged in, you can create new items for sale using the Add Listing page.
-Fill out the form a title, description, price, category, and condition to publish your listing:
+The Add Listings page allows users to easily add their own listings for others to view:
 
 ![](images/add-project-page.png)
+
+The User page allows users to view their account details and updatings on their offers/pending offers
+
+![](images/home-page.png)
 
 
 ## Community Feedback
