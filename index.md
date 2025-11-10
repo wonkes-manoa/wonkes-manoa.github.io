@@ -5,18 +5,17 @@
 * [Overview](#overview)
 * [User Guide](#user-guide)
 * [Community Feedback](#community-feedback)
-* [Developer Guide](#developer-guide)
 * [Team](#team)
 
 ## Overview
 
-Wonkes is an example web application that allows users to sell and buy items with just a click of a button. Users can create postings, browse for products, and connect with the community. It utilizes various technologies useful to ICS software engineering students, including:
+Wonkes is a web application that allows users to sell and buy items with just a click of a button. Users can create postings, browse for products, and connect with the community. It utilizes various technologies useful to web application creation, including:
 
 * [React](https://reactjs.org/) for component-based UI implementation and routing.
 * [React Bootstrap](https://react-bootstrap.github.io/) CSS Framework for UI design.
 * [Vercel](https://vercel.com/) hosting service that deploys project online and hosts database.
 
-It also provides code that implements a variety of useful design concepts, including:
+With this tech stack, this is what we are implementing:
 
 * A functioning landing page with listings, a user page, and a add listings page.
 * Interface built with boostrap 5 for a responsive and multi-platform friendly design
@@ -31,17 +30,19 @@ This section provides a walkthrough of the Wonkes user interface and its capabil
 
 ### Landing Page
 
-The landing page is presented to users when they visit the top-level URL to the site.
+The landing page is presented to users when they visit the top-level URL of the site.
 
 ![](images/landing-page-wonkes.png)
 
 ### Index pages (Add Listings, About Us)
 
-Wonkes provides three public pages that present the contents of the database organized in various ways.
+Wonkes provides public pages that present the contents of the database organized in various ways.
 
 The View Listings page allows users to easily view and filter all listing on the site:
 
-![](images/view-listing-wonkes.png)
+![](images/view-listings-wonkes.png)
+
+### About Us
 
 The About Us page explains our mission to create a convenient and sustainable platform for Manoa students.
 
@@ -49,13 +50,13 @@ The About Us page explains our mission to create a convenient and sustainable pl
 
 
 
-### Sign in and sign up
+### Log in and sign up
 
-Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
+Click on the "Login" button in the upper right corner of the navbar, to go to the following page and login. You must have been previously registered with the system to use this option:
 
 ![](images/login-wonkes.png)
 
-Alternatively, you can select "Sign up" to go to the following page and register as a new user:
+Alternatively, you can select "Sign up" button to go to the following page and register as a new user:
 
 ![](images/signup-wonkes.png)
 
@@ -66,14 +67,17 @@ Once logged in, you can view listings and place offers on your desired item!
 
 ![](images/listing-example-wonkes.png)
 
-The User page allows users to view their account details and updatings on their offers/pending offers
-
-![](images/home-page.png)
-
 
 ## Community Feedback
 
+TBA
+
+<!--
 We are interested in your experience using Wonkes!  If you would like, please take a couple of minutes to fill out the [Wonkes Feedback Form](https://forms.gle/hBHdccQEbm4YNfPd6). It contains only five short questions and will help us understand how to improve the system.
+
+-->
+
+<!--
 
 ## Developer Guide
 
@@ -139,6 +143,8 @@ $
 ESLint should run without generating any errors.
 
 It's significantly easier to do development with ESLint integrated directly into your IDE (such as IntelliJ).
+
+-->
 
 <!-- ### Application Design
 
@@ -370,6 +376,7 @@ There are a number of simple enhancements you can make to the system to become b
 ## Team
 
 Wonkes is designed, implemented, and maintained by Andrew Narciso, Brian Kim, Darilyn Evangelista, Joshua Omori, and Yuhang Wu.
+
 
 
 
