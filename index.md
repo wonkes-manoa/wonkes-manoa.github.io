@@ -40,21 +40,18 @@ The landing page is presented to users when they visit the top-level URL to the 
 
 ![](images/landing-page.png)
 
-### Index pages (Projects, Profiles, Interests)
+### Index pages (Add Listings, User Page)
 
 Wonkes provides three public pages that present the contents of the database organized in various ways.
 
-The Profiles page shows all the current defined profiles and their associated Projects and Interests:
+The Add Listings page allows users to easily add their own listings for others to view:
 
 ![](images/profiles-page.png)
 
-The Projects page shows all the currently defined Projects and their associated Profiles and Interests:
+The User page allows users to view their account details and updatings on their offers/pending offers
 
-![](images/projects-page.png)
+![](images/profiles-page.png)
 
-Finally, the Interests page shows all the currently defined Interests, and their associated Profiles and Projects:
-
-![](images/interests-page.png)
 
 
 ### Sign in and sign up
@@ -67,28 +64,23 @@ Alternatively, you can select "Sign up" to go to the following page and register
 
 ![](images/signup-page.png)
 
-### Home page
+### User Home page
 
-After logging in, you are taken to the home page, which presents a form where you can complete and/or update your personal profile:
+After signing in, you’ll be directed to your User Page, where you can view and edit your profile details, as well as manage your active listings:
 
 ![](images/home-page.png)
 
-### Add Project page
+### Add listing page
 
-Once you are logged in, you can define new projects with the Add Project page:
+Once logged in, you can create new items for sale using the Add Listing page.
+Fill out the form a title, description, price, category, and condition to publish your listing:
 
 ![](images/add-project-page.png)
 
 
-### Filter page
-
-The Filter page provides the ability to query the database and display the results in the page. In this case, the query displays all of the Profiles that match one or more of the specified Interest(s).
-
-![](images/filter-page.png)
-
 ## Community Feedback
 
-We are interested in your experience using Bowfolio!  If you would like, please take a couple of minutes to fill out the [Wonkes Feedback Form](https://forms.gle/hBHdccQEbm4YNfPd6). It contains only five short questions and will help us understand how to improve the system.
+We are interested in your experience using Wonkes!  If you would like, please take a couple of minutes to fill out the [Wonkes Feedback Form](https://forms.gle/hBHdccQEbm4YNfPd6). It contains only five short questions and will help us understand how to improve the system.
 
 ## Developer Guide
 
@@ -96,27 +88,45 @@ This section provides information of interest to Meteor developers wishing to us
 
 ### Installation
 
-First, [install Meteor](https://www.meteor.com/install).
+First, [install PostgreSQL](https://www.postgresql.org/download).
 
-Second, visit the [Wonkes application github page](https://github.com/Wonkes/Wonkes), and click the "Use this template" button to create your own repository initialized with a copy of this application. Alternatively, you can download the sources as a zip file or make a fork of the repo.  However you do it, download a copy of the repo to your local computer.
+Second, visit the [Wonkes application github page](https://github.com/Wonkes-Manoa), and click the "Use this template" button to create your own repository initialized with a copy of this application. Alternatively, you can download the sources as a zip file or make a fork of the repo.  However you do it, download a copy of the repo to your local computer.
 
 Third, cd into the Wonkes/app directory and install libraries with:
 
 ```
-$ meteor npm install
+$ npm install
 ```
 
-Fourth, run the system with:
+Fourth, create a PostgreSQL database named marketplace and configure your .env file with the connection URL:
 
 ```
-$ meteor npm run start
+DATABASE_URL=postgresql://username:password@localhost:5432/marketplace
+```
+
+You can create the database manually or by running:
+
+```
+$ createdb marketplace
+```
+
+Fifth, initialize the database and apply migrations with:
+
+```
+$ npx prisma migrate dev
+```
+
+and with:
+
+```
+$ npm run dev
 ```
 
 If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000).
 
 ### Application Design
 
-Wonkes is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in Wonkes.
+Wonkes is based upon [bowfolios](https://github.com/bowfolios/bowfolios.github.io). Please use the documentation at that site to better acquaint yourself with the basic application design and form processing in Wonkes.
 
 ### Data model
 
