@@ -20,9 +20,9 @@ With this tech stack, this is what we are implementing:
 * A functioning landing page with listings, a user page, and a add listings page.
 * Interface built with boostrap 5 for a responsive and multi-platform friendly design
 * Initialization code to define users, listings, and category tags
-* Use of bootstrap and javascript components to implement/manage a responsive layout with interactive elements
+* Use of bootstrap and typescript components to implement/manage a responsive layout with interactive elements
 * A secure sign-up/sign-in page allowing the user permissions and access based on their role.
-* Authorization examples: certain pages are public (Add Listings, User Page), while other pages require login (Admin Dashboard).
+* Authorization examples: certain pages are public (View listings, Login Page), while other pages require login (Admin Dashboard).
 
 ## User Guide
 
@@ -34,22 +34,6 @@ The landing page is presented to users when they visit the top-level URL of the 
 
 ![](images/landing-page-wonkes.png)
 
-### Index pages (Add Listings, About Us)
-
-Wonkes provides public pages that present the contents of the database organized in various ways.
-
-The View Listings page allows users to easily view and filter all listing on the site:
-
-![](images/view-listings-wonkes.png)
-
-### About Us
-
-The About Us page explains our mission to create a convenient and sustainable platform for Manoa students.
-
-![](images/about-us-wonkes.png)
-
-
-
 ### Log in and sign up
 
 Click on the "Login" button in the upper right corner of the navbar, to go to the following page and login. You must have been previously registered with the system to use this option:
@@ -60,12 +44,25 @@ Alternatively, you can select "Sign up" button to go to the following page and r
 
 ![](images/signup-wonkes.png)
 
+### View Listings
 
-### Viewing Listings
+Once logged in, Wonkes provides public pages that present the contents of the database organized in various ways.
 
-Once logged in, you can view listings and place offers on your desired item!
+The View Listings page allows users to easily view and filter all listing on the site:
+
+![](images/view-listings-wonkes.png)
+
+### Viewing Items
+
+When you click on a item, can view listing details, contact the seller, and place offers!
 
 ![](images/listing-example-wonkes.png)
+
+### About Us
+
+The About Us page explains our mission to create a convenient and sustainable platform for Manoa students.
+
+![](images/about-us-wonkes.png)
 
 
 ## Community Feedback
@@ -376,6 +373,7 @@ There are a number of simple enhancements you can make to the system to become b
 ## Team
 
 Wonkes is designed, implemented, and maintained by Andrew Narciso, Brian Kim, Darilyn Evangelista, Joshua Omori, and Yuhang Wu.
+
 
 
 
