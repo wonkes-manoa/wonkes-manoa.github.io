@@ -275,15 +275,15 @@ The following sections document the development history of Wonkes.
 
 ### Milestone 1: Mockup development
 
-<!-- The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system.
+The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system.
 
-Milestone 1 was managed using [BowFolio GitHub Project Board M1](https://github.com/Wonkes/Wonkes/projects/1):
+Milestone 1 was managed using [Wonkes GitHub Project Board M1](https://github.com/orgs/wonkes-manoa/projects/1):
 
-![](images/project-board-1.png) --> 
+![](images/project-board-1.png)
 
-TBA
 
-### Milestone 2: Data model development
+### Milestone 2: TBA
+<!-- Data model development-->
 
 <!-- The goal of Milestone 2 was to implement the data model: the underlying set of Mongo Collections and the operations upon them that would support the BowFolio application.
 
@@ -294,7 +294,8 @@ Milestone 2 was managed using [BowFolio GitHub Project Board M2](https://github.
 
 TBA
 
-### Milestone 3: Final touches
+### Milestone 3: TBA
+<!--Final touches-->
 
 <!-- The goal of Milestone 3 was to clean up the code base and fix minor UI issues.
 
@@ -336,6 +337,7 @@ There are a number of simple enhancements you can make to the system to become b
 ## Team
 
 Wonkes is designed, implemented, and maintained by Andrew Narciso, Brian Kim, Darilyn Evangelista, Joshua Omori, and Yuhang Wu.
+
 
 
 
