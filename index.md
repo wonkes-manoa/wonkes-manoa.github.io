@@ -303,11 +303,12 @@ TBA
 
 ### Milestone 2: Data model development
 
-<!--> The goal of Milestone 2 was to implement the data model: the underlying set of Mongo Collections and the operations upon them that would support the BowFolio application.
+<!-- The goal of Milestone 2 was to implement the data model: the underlying set of Mongo Collections and the operations upon them that would support the BowFolio application.
 
 Milestone 2 was managed using [BowFolio GitHub Project Board M2](https://github.com/Wonkes/Wonkes/projects/2):
 
-![](images/project-board-2.png) --> 
+![](images/project-board-2.png) 
+--> 
 
 TBA
 
@@ -319,7 +320,8 @@ Milestone 3 was managed using [BowFolio GitHub Project Board M3](https://github.
 
 ![](images/project-board-3.png)
 
-As of the time of writing, this screenshot shows that there is an ongoing task (i.e. this writing). --> 
+As of the time of writing, this screenshot shows that there is an ongoing task (i.e. this writing). 
+--> 
 
 TBA
 
