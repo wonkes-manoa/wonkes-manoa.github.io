@@ -7,12 +7,6 @@
 * [Community Feedback](#community-feedback)
 * [Developer Guide](#developer-guide)
 * [Team](#team)
-<!--
-* [Development History](#development-history)
-* [Continuous Integration](#continuous-integration)
-* [Walkthrough videos](#walkthrough-videos)
-* [Example enhancements](#example-enhancements)
--->
 
 ## Overview
 
@@ -312,7 +306,7 @@ Milestone 2 was managed using [BowFolio GitHub Project Board M2](https://github.
 
 TBA
 
-## Milestone 3: Final touches
+### Milestone 3: Final touches
 
 <!-- The goal of Milestone 3 was to clean up the code base and fix minor UI issues.
 
@@ -354,5 +348,6 @@ There are a number of simple enhancements you can make to the system to become b
 ## Team
 
 Wonkes is designed, implemented, and maintained by Andrew Narciso, Brian Kim, Darilyn Evangelista, Joshua Omori, and Yuhang Wu.
+
 
 
