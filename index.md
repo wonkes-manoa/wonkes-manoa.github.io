@@ -15,24 +15,20 @@
 
 ## Overview
 
-Wonkes is an example web application that provides pages to view and (in some cases) modify profiles, projects, and interests. It illustrates various technologies useful to ICS software engineering students, including:
+Wonkes is an example web application that allows users to sell and buy items with just a click of a button. Users can create postings, browse for products, and connect with the community. It utilizes various technologies useful to ICS software engineering students, including:
 
-* [Meteor](https://www.meteor.com/) for Javascript-based implementation of client and server code.
 * [React](https://reactjs.org/) for component-based UI implementation and routing.
 * [React Bootstrap](https://react-bootstrap.github.io/) CSS Framework for UI design.
-* [Uniforms](https://uniforms.tools/) for React and Semantic UI-based form design and display.
+* [Vercel](https://vercel.com/) hosting service that deploys project online and hosts database.
 
 It also provides code that implements a variety of useful design concepts, including:
 
-* Three primary collections (Profiles, Projects, Interests) as well as three "join" Collections (ProfilesInterests, ProfilesProjects, and ProjectsInterests) that implement many-to-many relationships between them.
-* Top-level index pages (Profiles, Interests, and Projects) that show how to manipulate these six collections in various ways.
-* Initialization code to define default Profiles, Interests, and Projects and relations between them.
-* A simple Filter page to illustrate how to perform simple queries on the database and display the results.
-* Use of Meteor Methods to illustrate how to simplify implementation of multiple collection updates.
-* Use of indexes to enforce uniqueness of certain fields in the collections, enabling them to serve as primary keys.
-* Authentication using the built-in Meteor accounts package along with Sign Up and Sign In pages.
-* Authorization examples: certain pages are public (Profiles, Projects, Interests), while other pages require login (AddProject, Filter).
-* Use of Meteor Assets to initialize the database (helpful when initialization exceeds settings file size limits).
+* A functioning landing page with listings, a user page, and a add listings page.
+* Interface built with boostrap 5 for a responsive and multi-platform friendly design
+* Initialization code to define users, listings, and category tags
+* Use of bootstrap and javascript components to implement/manage a responsive layout with interactive elements
+* A secure sign-up/sign-in page allowing the user permissions and access based on their role.
+* Authorization examples: certain pages are public (Add Listings, User Page), while other pages require login (Admin Dashboard).
 
 ## User Guide
 
@@ -284,53 +280,16 @@ The following sections document the development history of Wonkes.
 
 ### Milestone 1: Mockup development
 
-The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system.
-
-Milestone 1 was managed using [BowFolio GitHub Project Board M1](https://github.com/Wonkes/Wonkes/projects/1):
-
-![](images/project-board-1.png)
+TBA
 
 ### Milestone 2: Data model development
 
-The goal of Milestone 2 was to implement the data model: the underlying set of Mongo Collections and the operations upon them that would support the BowFolio application.
-
-Milestone 2 was managed using [BowFolio GitHub Project Board M2](https://github.com/Wonkes/Wonkes/projects/2):
-
-![](images/project-board-2.png)
+TBA
 
 ## Milestone 3: Final touches
 
-The goal of Milestone 3 was to clean up the code base and fix minor UI issues.
+TBA
 
-Milestone 3 was managed using [BowFolio GitHub Project Board M3](https://github.com/Wonkes/Wonkes/projects/3):
-
-![](images/project-board-3.png)
-
-As of the time of writing, this screenshot shows that there is an ongoing task (i.e. this writing).
-
-## Walkthrough videos
-
-Wonkes is intended as a model of how an ICS 314 project could be organized and executed. Here are videos that walk you through various aspects of the system:
-
-* [Wonkes Part 1: Application Overview (5 min)](https://www.youtube.com/watch?v=5lXSLf9VHqw)
-* [Wonkes Part 2: Application Structure and Control Flow (14 min)](https://www.youtube.com/watch?v=hQYc8UK4K7w)
-* [Wonkes Part 3: Data Model, Data Initialization, Publications and Subscriptions (27 min)](https://www.youtube.com/watch?v=pcZg_44Ssdk)
-* [Wonkes Part 4: Forms and Meteor Methods (20 min)](https://www.youtube.com/watch?v=TLavamIYaEc)
-* [Wonkes Part 5: Loading data using Assets (8 min)](https://www.youtube.com/watch?v=NzrTzBPCJPo)
-* [Wonkes Part 6: End-to-End testing in Wonkes (24 min)](https://www.youtube.com/watch?v=B8TSiCLBeaA)
-
-## Example enhancements
-
-There are a number of simple enhancements you can make to the system to become better acquainted with the codebase:
-
-* Display an email icon that links to a mailto: for each user in the profile page.
-* Display the home page for each project as a home icon. Click on it to visit the Project's home page.
-* Add social media accounts to the profile (facebook, twitter, instagram) and show the associated icon in the Profile.
-* The system supports the definition of users with an Admin role, but there are no Admin-specific capabilities. Implement some Admin-specific functions, such as the ability to delete users or add/modify/delete Interests.
-* There is no way to edit or delete a project definition. Add this ability.
-* It would be nice for users to only be able to edit the Projects that they have created.  Add an "owner" field to the Project collection, and then only allow a user to edit a Project definition if they own it.
-* The error message associated with trying to define a new Project with an existing Project name is uninformative. Try it out for yourself to see what happens. Fix this by improving the associated Meteor Method to "catch" errors of this type and re-throw with a more informative error message.
-* The testcafe acceptance tests only test successful form submissions. Add a test in which you fill out a form incorrectly (perhaps omitting a required field) and then test to ensure that the form does not submit successfully.
 
 ## Team
 
