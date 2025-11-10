@@ -1,4 +1,4 @@
-# Bowfolios
+# Wonkes
 
 ## Table of contents
 
@@ -15,7 +15,7 @@
 
 ## Overview
 
-BowFolios is an example web application that provides pages to view and (in some cases) modify profiles, projects, and interests. It illustrates various technologies useful to ICS software engineering students, including:
+Wonkes is an example web application that provides pages to view and (in some cases) modify profiles, projects, and interests. It illustrates various technologies useful to ICS software engineering students, including:
 
 * [Meteor](https://www.meteor.com/) for Javascript-based implementation of client and server code.
 * [React](https://reactjs.org/) for component-based UI implementation and routing.
@@ -36,7 +36,7 @@ It also provides code that implements a variety of useful design concepts, inclu
 
 ## User Guide
 
-This section provides a walkthrough of the Bowfolios user interface and its capabilities.
+This section provides a walkthrough of the Wonkes user interface and its capabilities.
 
 ### Landing Page
 
@@ -46,7 +46,7 @@ The landing page is presented to users when they visit the top-level URL to the 
 
 ### Index pages (Projects, Profiles, Interests)
 
-Bowfolios provides three public pages that present the contents of the database organized in various ways.
+Wonkes provides three public pages that present the contents of the database organized in various ways.
 
 The Profiles page shows all the current defined profiles and their associated Projects and Interests:
 
@@ -92,7 +92,7 @@ The Filter page provides the ability to query the database and display the resul
 
 ## Community Feedback
 
-We are interested in your experience using Bowfolio!  If you would like, please take a couple of minutes to fill out the [Bowfolios Feedback Form](https://forms.gle/hBHdccQEbm4YNfPd6). It contains only five short questions and will help us understand how to improve the system.
+We are interested in your experience using Bowfolio!  If you would like, please take a couple of minutes to fill out the [Wonkes Feedback Form](https://forms.gle/hBHdccQEbm4YNfPd6). It contains only five short questions and will help us understand how to improve the system.
 
 ## Developer Guide
 
@@ -102,9 +102,9 @@ This section provides information of interest to Meteor developers wishing to us
 
 First, [install Meteor](https://www.meteor.com/install).
 
-Second, visit the [Bowfolios application github page](https://github.com/bowfolios/bowfolios), and click the "Use this template" button to create your own repository initialized with a copy of this application. Alternatively, you can download the sources as a zip file or make a fork of the repo.  However you do it, download a copy of the repo to your local computer.
+Second, visit the [Wonkes application github page](https://github.com/Wonkes/Wonkes), and click the "Use this template" button to create your own repository initialized with a copy of this application. Alternatively, you can download the sources as a zip file or make a fork of the repo.  However you do it, download a copy of the repo to your local computer.
 
-Third, cd into the bowfolios/app directory and install libraries with:
+Third, cd into the Wonkes/app directory and install libraries with:
 
 ```
 $ meteor npm install
@@ -120,17 +120,17 @@ If all goes well, the application will appear at [http://localhost:3000](http://
 
 ### Application Design
 
-Bowfolios is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in Bowfolios.
+Wonkes is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in Wonkes.
 
 ### Data model
 
-As noted above, the Bowfolios data model consists of three "primary" collections (Projects, Profiles, and Interests), as well as three "join" Collections (ProfilesProjects, ProfilesInterests, and ProjectsInterests).  To understand this design choice, consider the situation where you want to specify the projects associated with a Profile.
+As noted above, the Wonkes data model consists of three "primary" collections (Projects, Profiles, and Interests), as well as three "join" Collections (ProfilesProjects, ProfilesInterests, and ProjectsInterests).  To understand this design choice, consider the situation where you want to specify the projects associated with a Profile.
 
 Design choice #1: Provide a field in Profile collection called "Projects", and fill it with an array of project names. This choice works great when you want to display a Profile and indicate the Projects it's associated with.  But what if you want to go the other direction: display a Project and all of the Profiles associated with it?  Then you have to do a sequential search through all of the Profiles, then do a sequential search through that array field looking for a match.  That's computationally expensive and also just silly.
 
 Design choice #2:  Provide a "join" collection where each document contains two fields: Profile name and Project name. Each entry indicates that there is a relationship between those two entities. Now, to find all the Projects associated with a Profile, just search this collection for all the documents that match the Profile, then extract the Project field. Going the other way is just as easy: to find all the Profiles associated with a Project, just search the collection for all documents matching the Project, then extract the Profile field.
 
-Bowfolios implements Design choice #2 to provide pair-wise relations between all three of its primary collections:
+Wonkes implements Design choice #2 to provide pair-wise relations between all three of its primary collections:
 
 ![](images/data-model.png)
 
@@ -139,7 +139,7 @@ The fields in boldface (Email for Profiles, and Name for Projects and Interests)
 
 ## Initialization
 
-The [config](https://github.com/bowfolios/bowfolios/tree/main/config) directory is intended to hold settings files.  The repository contains one file: [config/settings.development.json](https://github.com/bowfolios/bowfolios/blob/main/config/settings.development.json).
+The [config](https://github.com/Wonkes/Wonkes/tree/main/config) directory is intended to hold settings files.  The repository contains one file: [config/settings.development.json](https://github.com/Wonkes/Wonkes/blob/main/config/settings.development.json).
 
 This file contains default definitions for Profiles, Projects, and Interests and the relationships between them. Consult the walkthrough video for more details.
 
@@ -150,7 +150,7 @@ The settings.development.json file contains a field called "loadAssetsFile". It 
 
 #### ESLint
 
-BowFolios includes a [.eslintrc](https://github.com/bowfolios/bowfolios/blob/main/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
+Wonkes includes a [.eslintrc](https://github.com/Wonkes/Wonkes/blob/main/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
 
 ```
 meteor npm run lint
@@ -161,7 +161,7 @@ Here is sample output indicating that no ESLint errors were detected:
 ```
 $ meteor npm run lint
 
-> bowfolios@ lint /Users/philipjohnson/github/bowfolios/bowfolios/app
+> Wonkes@ lint /Users/philipjohnson/github/Wonkes/Wonkes/app
 > eslint --quiet --ext .jsx --ext .js ./imports ./tests
 
 $
@@ -173,11 +173,11 @@ It's significantly easier to do development with ESLint integrated directly into
 
 #### End to End Testing
 
-BowFolios uses [TestCafe](https://devexpress.github.io/testcafe/) to provide automated end-to-end testing.
+Wonkes uses [TestCafe](https://devexpress.github.io/testcafe/) to provide automated end-to-end testing.
 
-The BowFolios end-to-end test code employs the page object model design pattern.  In the [bowfolios tests/ directory](https://github.com/bowfolios/bowfolios/tree/main/app/tests), the file [tests.testcafe.js](https://github.com/bowfolios/bowfolios/blob/main/app/tests/tests.testcafe.js) contains the TestCafe test definitions. The remaining files in the directory contain "page object models" for the various pages in the system (i.e. Home, Landing, Interests, etc.) as well as one component (navbar). This organization makes the test code shorter, easier to understand, and easier to debug.
+The Wonkes end-to-end test code employs the page object model design pattern.  In the [Wonkes tests/ directory](https://github.com/Wonkes/Wonkes/tree/main/app/tests), the file [tests.testcafe.js](https://github.com/Wonkes/Wonkes/blob/main/app/tests/tests.testcafe.js) contains the TestCafe test definitions. The remaining files in the directory contain "page object models" for the various pages in the system (i.e. Home, Landing, Interests, etc.) as well as one component (navbar). This organization makes the test code shorter, easier to understand, and easier to debug.
 
-To run the end-to-end tests in development mode, you must first start up a BowFolios instance by invoking `meteor npm run start` in one console window.
+To run the end-to-end tests in development mode, you must first start up a Wonkes instance by invoking `meteor npm run start` in one console window.
 
 Then, in another console window, start up the end-to-end tests with:
 
@@ -190,13 +190,13 @@ You will see browser windows appear and disappear as the tests run.  If the test
 ```
 $ meteor npm run testcafe
 
-> bowfolios@ testcafe /Users/philipjohnson/github/bowfolios/bowfolios/app
+> Wonkes@ testcafe /Users/philipjohnson/github/Wonkes/Wonkes/app
 > testcafe chrome tests/*.testcafe.js
 
  Running tests in:
  - Chrome 86.0.4240.111 / macOS 10.15.7
 
- Bowfolios localhost test with default db
+ Wonkes localhost test with default db
  ✓ Test that landing page shows up
  ✓ Test that signin and signout work
  ✓ Test that signup page, then logout works
@@ -215,20 +215,20 @@ $ meteor npm run testcafe
 
 You can also run the testcafe tests in "continuous integration mode".  This mode is appropriate when you want to run the tests using a continuous integration service like Jenkins, Semaphore, CircleCI, etc.  In this case, it is problematic to already have the server running in a separate console, and you cannot have the browser window appear and disappear.
 
-To run the testcafe tests in continuous integration mode, first ensure that BowFolios is not running in any console.
+To run the testcafe tests in continuous integration mode, first ensure that Wonkes is not running in any console.
 
 Then, invoke `meteor npm run testcafe-ci`.  You will not see any windows appear.  When the tests finish, the console should look like this:
 
 ```
 $ meteor npm run testcafe-ci
 
-> bowfolios@ testcafe-ci /Users/philipjohnson/github/bowfolios/bowfolios/app
+> Wonkes@ testcafe-ci /Users/philipjohnson/github/Wonkes/Wonkes/app
 > testcafe chrome:headless tests/*.testcafe.js -q --app "meteor npm run start"
 
  Running tests in:
  - Chrome 86.0.4240.111 / macOS 10.15.7
 
- Bowfolios localhost test with default db
+ Wonkes localhost test with default db
  ✓ Test that landing page shows up (unstable)
  ✓ Test that signin and signout work
  ✓ Test that signup page, then logout works
@@ -251,7 +251,7 @@ The only impact of quarantine mode should be that the first test is marked as "u
 
 ## From mockup to production
 
-Bowfolios is meant to illustrate the use of Meteor for developing an initial proof-of-concept prototype.  For a production application, several additional security-related changes must be implemented:
+Wonkes is meant to illustrate the use of Meteor for developing an initial proof-of-concept prototype.  For a production application, several additional security-related changes must be implemented:
 
 * Use of email-based password specification for users, and/or use of an alternative authentication mechanism.
 * Use of https so that passwords are sent in encrypted format.
@@ -261,16 +261,16 @@ Bowfolios is meant to illustrate the use of Meteor for developing an initial pro
 
 ## Continuous Integration
 
-![ci-badge](https://github.com/bowfolios/bowfolios/workflows/ci-bowfolios/badge.svg)
+![ci-badge](https://github.com/Wonkes/Wonkes/workflows/ci-Wonkes/badge.svg)
 
-BowFolios uses [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions) to automatically run ESLint and TestCafe each time a commit is made to the default branch.  You can see the results of all recent "workflows" at [https://github.com/bowfolios/bowfolios/actions](https://github.com/bowfolios/bowfolios/actions).
+Wonkes uses [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions) to automatically run ESLint and TestCafe each time a commit is made to the default branch.  You can see the results of all recent "workflows" at [https://github.com/Wonkes/Wonkes/actions](https://github.com/Wonkes/Wonkes/actions).
 
 The workflow definition file is quite simple and is located at
-[.github/workflows/ci.yml](https://github.com/bowfolios/bowfolios/blob/main/.github/workflows/ci.yml).
+[.github/workflows/ci.yml](https://github.com/Wonkes/Wonkes/blob/main/.github/workflows/ci.yml).
 
 ## Development History
 
-The development process for BowFolios conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f19/modules/project-management/) practices. In a nutshell:
+The development process for Wonkes conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f19/modules/project-management/) practices. In a nutshell:
 
 * Development consists of a sequence of Milestones.
 * Each Milestone is specified as a set of tasks.
@@ -280,13 +280,13 @@ The development process for BowFolios conformed to [Issue Driven Project Managem
 * When a task is complete, its corresponding issue is closed and its corresponding git branch is merged into master.
 * The state (todo, in progress, complete) of each task for a milestone is managed using a GitHub Project Board.
 
-The following sections document the development history of BowFolios.
+The following sections document the development history of Wonkes.
 
 ### Milestone 1: Mockup development
 
 The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system.
 
-Milestone 1 was managed using [BowFolio GitHub Project Board M1](https://github.com/bowfolios/bowfolios/projects/1):
+Milestone 1 was managed using [BowFolio GitHub Project Board M1](https://github.com/Wonkes/Wonkes/projects/1):
 
 ![](images/project-board-1.png)
 
@@ -294,7 +294,7 @@ Milestone 1 was managed using [BowFolio GitHub Project Board M1](https://github.
 
 The goal of Milestone 2 was to implement the data model: the underlying set of Mongo Collections and the operations upon them that would support the BowFolio application.
 
-Milestone 2 was managed using [BowFolio GitHub Project Board M2](https://github.com/bowfolios/bowfolios/projects/2):
+Milestone 2 was managed using [BowFolio GitHub Project Board M2](https://github.com/Wonkes/Wonkes/projects/2):
 
 ![](images/project-board-2.png)
 
@@ -302,7 +302,7 @@ Milestone 2 was managed using [BowFolio GitHub Project Board M2](https://github.
 
 The goal of Milestone 3 was to clean up the code base and fix minor UI issues.
 
-Milestone 3 was managed using [BowFolio GitHub Project Board M3](https://github.com/bowfolios/bowfolios/projects/3):
+Milestone 3 was managed using [BowFolio GitHub Project Board M3](https://github.com/Wonkes/Wonkes/projects/3):
 
 ![](images/project-board-3.png)
 
@@ -310,14 +310,14 @@ As of the time of writing, this screenshot shows that there is an ongoing task (
 
 ## Walkthrough videos
 
-BowFolios is intended as a model of how an ICS 314 project could be organized and executed. Here are videos that walk you through various aspects of the system:
+Wonkes is intended as a model of how an ICS 314 project could be organized and executed. Here are videos that walk you through various aspects of the system:
 
-* [BowFolios Part 1: Application Overview (5 min)](https://www.youtube.com/watch?v=5lXSLf9VHqw)
-* [BowFolios Part 2: Application Structure and Control Flow (14 min)](https://www.youtube.com/watch?v=hQYc8UK4K7w)
-* [BowFolios Part 3: Data Model, Data Initialization, Publications and Subscriptions (27 min)](https://www.youtube.com/watch?v=pcZg_44Ssdk)
-* [BowFolios Part 4: Forms and Meteor Methods (20 min)](https://www.youtube.com/watch?v=TLavamIYaEc)
-* [BowFolios Part 5: Loading data using Assets (8 min)](https://www.youtube.com/watch?v=NzrTzBPCJPo)
-* [BowFolios Part 6: End-to-End testing in BowFolios (24 min)](https://www.youtube.com/watch?v=B8TSiCLBeaA)
+* [Wonkes Part 1: Application Overview (5 min)](https://www.youtube.com/watch?v=5lXSLf9VHqw)
+* [Wonkes Part 2: Application Structure and Control Flow (14 min)](https://www.youtube.com/watch?v=hQYc8UK4K7w)
+* [Wonkes Part 3: Data Model, Data Initialization, Publications and Subscriptions (27 min)](https://www.youtube.com/watch?v=pcZg_44Ssdk)
+* [Wonkes Part 4: Forms and Meteor Methods (20 min)](https://www.youtube.com/watch?v=TLavamIYaEc)
+* [Wonkes Part 5: Loading data using Assets (8 min)](https://www.youtube.com/watch?v=NzrTzBPCJPo)
+* [Wonkes Part 6: End-to-End testing in Wonkes (24 min)](https://www.youtube.com/watch?v=B8TSiCLBeaA)
 
 ## Example enhancements
 
@@ -334,4 +334,4 @@ There are a number of simple enhancements you can make to the system to become b
 
 ## Team
 
-BowFolios is designed, implemented, and maintained by [Philip Johnson](https://philipmjohnson.org) and [Cam Moore](https://cammoore.github.io/).
+Wonkes is designed, implemented, and maintained by [Philip Johnson](https://philipmjohnson.org) and [Cam Moore](https://cammoore.github.io/).
