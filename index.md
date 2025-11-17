@@ -1,4 +1,4 @@
-# Wonkes test
+# Wonkes
 
 ## Table of contents
 
@@ -375,6 +375,7 @@ There are a number of simple enhancements you can make to the system to become b
 Wonkes is designed, implemented, and maintained by Andrew Narciso, Brian Kim, Darilyn Evangelista, Joshua Omori, and Yuhang Wu.
 
 [Team Contract](https://docs.google.com/document/d/1qroZlpwSoKRgaHdcHW84i6tGcFYL_FecpEvVHpQUUd8/edit?tab=t.0#heading=h.mobo0m5sq6vj)
+
 
 
 
