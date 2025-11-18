@@ -1,13 +1,13 @@
 # Wonkes
 
-## Table of contents
+# Table of contents
 
 * [Overview](#overview)
 * [User Guide](#user-guide)
 * [Milestones](#milestones)
 * [Our Team](#our-team)
 
-## Overview
+# Overview
 
 Wonkes is a web application that allows users to sell and buy items with just a click of a button. Users can create postings, browse for products, and connect with the community. It utilizes various technologies useful to web application creation, including:
 
@@ -24,7 +24,7 @@ With this tech stack, this is what we are implementing:
 * A secure sign-up/sign-in page allowing the user permissions and access based on their role.
 * Authorization examples: certain pages are public (View Listings, Login Page), while other pages require login (Admin Dashboard).
 
-## User Guide
+# User Guide
 
 This section provides a walkthrough of the Wonkes user interface and its capabilities.
 
@@ -65,7 +65,7 @@ The About Us page explains our mission to create a convenient and sustainable pl
 ![](images/about-us-wonkes.png)
 
 
-## Milestones
+# Milestones
 
 What we have accomplished so far!
 
@@ -104,11 +104,12 @@ As of the time of writing, this screenshot shows that there is an ongoing task (
 
 TBA
 
-## Our Team
+# Our Team
 
 Wonkes is designed, implemented, and maintained by [Andrew Narciso](annayep.github.io), [Brian Kim](Fuburian.github.io/), [Darilyn Evangelista](darilyne.github.io), [Joshua Omori](oomorijosh.github.io/), and [Yuhang Wu](mike-yuhang-wu.github.io).
 
 [Team Contract](https://docs.google.com/document/d/1qroZlpwSoKRgaHdcHW84i6tGcFYL_FecpEvVHpQUUd8/edit?tab=t.0#heading=h.mobo0m5sq6vj)
+
 
 
 
