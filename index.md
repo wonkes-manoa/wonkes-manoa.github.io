@@ -4,7 +4,7 @@
 
 * [Overview](#overview)
 * [User Guide](#user-guide)
-* [Community Feedback](#community-feedback)
+* [Milestones](#milestones)
 * [Our Team](#our-team)
 
 ## Overview
@@ -65,9 +65,9 @@ The About Us page explains our mission to create a convenient and sustainable pl
 ![](images/about-us-wonkes.png)
 
 
-## Community Feedback
+## Milestones
 
-TBA
+What we have accomplished so far!
 
 ### Milestone 1: Mockup development
 
@@ -109,6 +109,7 @@ TBA
 Wonkes is designed, implemented, and maintained by [Andrew Narciso](annayep.github.io), [Brian Kim](Fuburian.github.io/), [Darilyn Evangelista](darilyne.github.io), [Joshua Omori](oomorijosh.github.io/), and [Yuhang Wu](mike-yuhang-wu.github.io).
 
 [Team Contract](https://docs.google.com/document/d/1qroZlpwSoKRgaHdcHW84i6tGcFYL_FecpEvVHpQUUd8/edit?tab=t.0#heading=h.mobo0m5sq6vj)
+
 
 
 
