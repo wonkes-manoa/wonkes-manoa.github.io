@@ -98,7 +98,7 @@ Milestone 1 was managed using [Wonkes GitHub Project Board M1](https://github.co
 ![](images/project-board-2.png) 
 --> 
 
-Milestone 1 was managed using [Wonkes GitHub Project Board M1](https://github.com/orgs/wonkes-manoa/projects/1):
+Milestone 2 was managed using [Wonkes GitHub Project Board M2](https://github.com/orgs/wonkes-manoa/projects/2):
 
 
 ### Milestone 3: TBA
