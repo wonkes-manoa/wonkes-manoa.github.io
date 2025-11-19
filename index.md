@@ -32,17 +32,17 @@ This section provides a walkthrough of the Wonkes user interface and its capabil
 
 The landing page is presented to users when they visit the top-level URL of the site.
 
-![](images/landing-page-wonkes.png)
+![](images/Landing.png)
 
 ### Sign in and sign up
 
 Click on the "Sign In" button in the upper right corner of the navbar, to go to the following page and login. You must have been previously registered with the system to use this option:
 
-![](images/login-wonkes.png)
+![](images/Sign-in.png)
 
 Alternatively, you can select "Sign up" button to go to the following page and register as a new user:
 
-![](images/signup-wonkes.png)
+![](images/Sign-up.png)
 
 ### View Listings
 
@@ -50,19 +50,29 @@ Once logged in, Wonkes provides public pages that present the contents of the da
 
 The View Listings page allows users to easily view and filter all listing on the site:
 
-![](images/view-listings-wonkes.png)
+![](images/View-Listings-1.png)
 
-### Viewing Items
+You can use the search bar to easily find the item you need!
 
-When you click on a item, can view listing details, contact the seller, and place offers!
+![](images/View-Listings-2.png)
 
-![](images/listing-example-wonkes.png)
+#### Viewing Items
 
-### About Us
+When you click on a item, can view listing details, exit back to view listings, and contact the seller!
+
+![](images/View-Merch.png)
+
+### Add Listings
+
+You can sell your items easily by adding info about the item.
+
+![](images/Add-Listings.png)
+
+### Support Page
 
 The About Us page explains our mission to create a convenient and sustainable platform for Manoa students.
 
-![](images/about-us-wonkes.png)
+![](images/Support.png)
 
 
 ## Community Feedback
