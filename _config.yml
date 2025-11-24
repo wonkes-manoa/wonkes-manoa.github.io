@@ -2,7 +2,7 @@ title: Wonkes
 description: A Marketplace for UH Manoa Students
 google_analytics: 
 show_downloads: false
-theme: jekyll-theme-merlot
+theme: jekyll-theme-architect
 github:
   is_project_page: true
   repository_url: https://github.com/wonkes-manoa/wonkes-manoa.github.io
