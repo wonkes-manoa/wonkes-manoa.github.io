@@ -1,4 +1,4 @@
-# Table of contents
+## Table of contents
 
 * [Overview](#overview)
 * [User Guide](#user-guide)
@@ -93,8 +93,7 @@ Milestone 1 was managed using [Wonkes GitHub Project Board M1](https://github.co
 
 <!-- Milestone 2 was managed using [BowFolio GitHub Project Board M2](https://github.com/Wonkes/Wonkes/projects/2):-->
 
-![](images/project-board-2.png) 
---> 
+![](images/project-board-2.png)
 
 Milestone 2 was managed using [Wonkes GitHub Project Board M2](https://github.com/orgs/wonkes-manoa/projects/2):
 
@@ -118,6 +117,7 @@ TBA
 Wonkes is designed, implemented, and maintained by [Andrew Narciso](https://annayep.github.io), [Brian Kim](https://Fuburian.github.io/), [Darilyn Evangelista](https://darilyne.github.io), [Joshua Omori](https://oomorijosh.github.io/), and [Yuhang Wu](https://mike-yuhang-wu.github.io).
 
 [Team Contract](https://docs.google.com/document/d/1qroZlpwSoKRgaHdcHW84i6tGcFYL_FecpEvVHpQUUd8/edit?tab=t.0#heading=h.mobo0m5sq6vj)
+
 
 
 
