@@ -1,5 +1,3 @@
-# Wonkes
-
 # Table of contents
 
 * [Overview](#overview)
@@ -117,9 +115,10 @@ TBA
 
 # Our Team
 
-Wonkes is designed, implemented, and maintained by [Andrew Narciso](annayep.github.io), [Brian Kim](Fuburian.github.io/), [Darilyn Evangelista](darilyne.github.io), [Joshua Omori](oomorijosh.github.io/), and [Yuhang Wu](mike-yuhang-wu.github.io).
+Wonkes is designed, implemented, and maintained by [Andrew Narciso](https://annayep.github.io), [Brian Kim](https://Fuburian.github.io/), [Darilyn Evangelista](https://darilyne.github.io), [Joshua Omori](https://oomorijosh.github.io/), and [Yuhang Wu](https://mike-yuhang-wu.github.io).
 
 [Team Contract](https://docs.google.com/document/d/1qroZlpwSoKRgaHdcHW84i6tGcFYL_FecpEvVHpQUUd8/edit?tab=t.0#heading=h.mobo0m5sq6vj)
+
 
 
 
