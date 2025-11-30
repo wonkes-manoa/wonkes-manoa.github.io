@@ -1,1 +1,1 @@
-This repo contains the documentation for the Wonkes system. See [index.md](index.md) for the source, or go to [https://wonkes-manoa.github.io/](https://wonkes-manoa.github.io/).
+This repo contains the documentation for the Wonkes Market. See [index.md](index.md) for the source, or go to [https://wonkes-manoa.github.io/](https://wonkes-manoa.github.io/). For Wonkes Market, go to [https://wonkes.vercel.app/](https://wonkes.vercel.app/).
