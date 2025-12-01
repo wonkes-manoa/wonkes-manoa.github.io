@@ -158,7 +158,7 @@ Milestone 1 was managed using [Wonkes GitHub Project Board M1](https://github.co
 
 ### Milestone 2: more functionality
 
-The goal of Milestone 2 was to create more functionalities that advance the user experience, such as editing a listing, reseting password, and most importantly, faster loading speed of pages.
+The goal of Milestone 2 was to create more functionalities that advance the user experience, such as editing a listing, reseting password, adding a like system, and most importantly, faster loading speed of pages.
 
 ![](images/project-milestone-2.png)
 
@@ -167,7 +167,9 @@ Milestone 2 was managed using [Wonkes GitHub Project Board M2](https://github.co
 
 ### Milestone 3: better functionality
 
-The goal of Milestone 3 was to fix existing bugs, and polish the English language in the website.
+The goal of Milestone 3 is to fix existing bugs, add pagination, polish wording
+in the website, and give admin functionality.
+
 
 ![](images/project-milestone-3.png)
 
