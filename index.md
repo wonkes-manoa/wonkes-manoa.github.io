@@ -171,7 +171,7 @@ The goal of Milestone 3 was to fix existing bugs, and polish the English languag
 
 ![](images/project-milestone-3.png)
 
-Milestone 3 was managed using [Wonkes GitHub Project Board M3](https://github.com/orgs/wonkes-manoa/projects/2):
+Milestone 3 was managed using [Wonkes GitHub Project Board M3](https://github.com/orgs/wonkes-manoa/projects/3):
 
 # Our Team
 
