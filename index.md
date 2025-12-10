@@ -5,6 +5,8 @@
 * [Milestones](#milestones)
 * [Our Team](#our-team)
 
+[![ci-nextjs-application-template](https://github.com/ics-software-engineering/nextjs-application-template/actions/workflows/ci.yml/badge.svg)](https://github.com/ics-software-engineering/nextjs-application-template/actions/workflows/ci.yml)
+
 # Welcome to Wonkes!!
 
 Check out [Wonkes Market](https://wonkes.vercel.app/) to see what's there!
