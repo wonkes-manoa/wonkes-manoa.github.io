@@ -27,13 +27,13 @@ Wonkes Market is built as a simple, small web application using technologies wid
 With this tech stack, we made:
 
 * A functioning landing page, a view listings page, a listing details page, an add listing page, an edit listing page.
-* A user-friendly sign in page, a sign up page, a log out page, a change password page, and a reset forgotten password page.
+* A user-friendly sign in page, a sign up page, a sign out page, a change password page, and a reset forgotten password page.
 * A surprising 404 not found page, a coming soon page.
 * Interface built with boostrap 5 for a responsive and multi-platform friendly design.
 * Initialization code to define users, listings, and category tags.
 * Use of bootstrap and typescript components to implement/manage a responsive layout with interactive elements.
 * A secure sign-up/sign-in page allowing the user permissions and access based on their role.
-* Authorization examples: certain pages are public (View Listings, Login Page), while other pages require login (Admin Dashboard).
+* Authorization examples: certain pages are public (View Listings, Sign In Page), while other pages require sign in (Admin Dashboard).
 
 # User Guide
 
@@ -49,11 +49,11 @@ The landing page is the first thing visitors see. It briefly explains what Wonke
 
 ### Sign in and sign up
 
-To sign in, click on the "Log in" button to log in. You can also login by clicking the "Log in" dropdown in the upper right corner of the navbar, then select "Log in."
+To sign in, click on the "Sign in" button to sign in. You can also sign in by clicking the "Sign in" dropdown in the upper right corner of the navbar, then select "Sign in."
 
 ![](images/auth-signin.png)
 
-If you do not have an account yet, and want to sign up, click on the "Sign up" button instead. You can also login by clicking the "Log in" dropdown in the upper right corner of the navbar, then select "Sign up."
+If you do not have an account yet, and want to sign up, click on the "Sign up" button instead. You can also sign up by clicking the "Sign in" dropdown in the upper right corner of the navbar, then select "Sign up."
 
 To sign up, you will provide an username, an UH email address (@hawaii.edu email address), a password, and your legal first and last name. Your username and email address can not repeat with other Wonkes Market users.
 
@@ -61,7 +61,7 @@ To sign up, you will provide an username, an UH email address (@hawaii.edu email
 
 ### View listings
 
-After signing in, you can browse all items posted on Wonkes Market through the View Listings page. A item that is sold or recalled by the seller *will* appear on the listings (it is funny because this is an old bug that we are too lazy to resolve).
+After signing in, you can browse all listings posted on Wonkes Market through the View Listings page. A item that is sold or recalled by the seller *will* appear on the listings (it is funny because this is an old bug that we are too lazy to resolve).
 
 ![](images/listing-view-1.png)
 
@@ -95,7 +95,7 @@ The badge at the top right corner of each slip tells you the current stock statu
 
 ### Edit a listing
 
-You can further edit an item by clicking on the "Edit Merch" button. You will be taken to the Edit Merch page, and be able to edit everything about your item: name, description, price, just to name a few.
+You can further edit an item by clicking on the "Edit Listing" button. You will be taken to the Edit Listing page, and be able to edit everything about your item: name, description, price, just to name a few.
 
 ![](images/listing-edit-1.png)
 
