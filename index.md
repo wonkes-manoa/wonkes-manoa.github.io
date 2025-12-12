@@ -203,15 +203,11 @@ However, this is not the moment to declare Wonkes Market a misery. Hidden within
 
 See? Wonkes have strengths too!
 
-Besides compliments, suggestions are equally important. These suggestions give us clear direction on how Wonkes Market can improve.
+Besides compliments, criticizes are equally important. These criticizes give us clear direction on how Wonkes Market can improve.
 
 * Improve clunky and inconsistent UI elements.
 * Add filters to make searching more efficient.
 * More engaging feature, and better product promotion.
-
-If there were a Milestone 4, these would be our top priorities. Whether Wonkes survives the winter is uncertain—but at the very least, it has shown us what works, what doesn’t, and where growth is possible.
-
-Overall, the community feedback highlights that Wonkes still has a long way to go: better UI design, more engaging features, and a clearer vision for its future. Even critical feedback helps us grow, and we genuinely appreciate our interviewees for taking the time to share their thoughts.
 
 If there is a Milestone 4, we'd tackle these seriously, but Wonkes won't survive this winter.
 
