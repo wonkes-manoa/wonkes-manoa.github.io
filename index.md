@@ -89,7 +89,7 @@ To see all listings you added, click on "My Store" on the top navigation bar, an
 
 ![](images/listing-my-1.png)
 
-The badge at the top right corner of each slip tells you the current stock status of an listing. You can click on the "Mark as Sold" button to conveniently change an listing's stock status to sold, which make it no longer appear in the public listing.
+The badge at the top right corner of each slip tells you the current stock status of an listing. You can click on the "Mark as Sold" button to conveniently change an listing's stock status to sold, which make it no longer appear in the public listing. You can also recall a listing using the edit listing feature, which will be introduced in the next subsection.
 
 ![](images/listing-my-2.png)
 
