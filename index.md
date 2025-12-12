@@ -61,41 +61,41 @@ To sign up, you will provide an username, an UH email address (@hawaii.edu email
 
 ### View listings
 
-After signing in, you can browse all listings posted on Wonkes Market through the View Listings page. A item that is sold or recalled by the seller *will* appear on the listings (it is funny because this is an old bug that we are too lazy to resolve).
+After signing in, you can browse all listings posted on Wonkes Market through the View Listings page. A listing that is sold or recalled by the seller *will* appear on the listings (it is funny because this is an old bug that we are too lazy to resolve).
 
 ![](images/listing-view-1.png)
 
-On the top of the page there is a search bar where you can use to easily find the item you need!
+On the top of the page there is a search bar where you can use to easily find the listing you need!
 
 ![](images/listing-view-2.png)
 
-#### View item detail
+#### View listing detail
 
-When you click on an item, can view its details, which includes more photographs, full description, condition, and main material. Some sellers disclose dimensions and weight, too. You can click on small photo thumbnails to preview them. If you are interesting in purchase, you can get seller's contact by clicking on the "Get Seller's Contact" button. If you want to continue browsing, you can return to View Listings page by clicking on the "Return to Listings" button.
+When you click on an listing, can view its details, which includes more photographs, full description, condition, and main material. Some sellers disclose dimensions and weight, too. You can click on small photo thumbnails to preview them. If you are interesting in purchase, you can get seller's contact by clicking on the "Get Seller's Contact" button. If you want to continue browsing, you can return to View Listings page by clicking on the "Return to Listings" button.
 
 ![](images/listing-detail.png)
 
 ### Add a listing
 
-A user not only can view existing listings, they can sell their item by creating a new listing. To do so, click on "Add Listing" on the top navigation bar, and tell us about your item.
+A user not only can view existing listings, they can sell their listing by creating a new listing. To do so, click on "Add Listing" on the top navigation bar, and tell us about your listing.
 
 ![](images/listing-add.png)
 
-You are required to provide a name, a description, a price (in US dollars), main material, condition, and photographs of your item. You may optionally provide dimension and weight of your item. If you want to add an item, but don't want it appear right a way in the public listing, you can choose "Sold" or "Recalled" as your stock status, which will be the initial status of your item.
+You are required to provide a name, a description, a price (in US dollars), main material, condition, and photographs of your listing. You may optionally provide dimension and weight of your listing. If you want to add an listing, but don't want it appear right a way in the public listing, you can choose "Sold" or "Recalled" as your stock status, which will be the initial status of your listing.
 
 ### The my store page
 
-To see all items you added, click on "My Store" on the top navigation bar, and you will see what you have added, and the details of each of them.
+To see all listings you added, click on "My Store" on the top navigation bar, and you will see what you have added, and the details of each of them.
 
 ![](images/listing-my-1.png)
 
-The badge at the top right corner of each slip tells you the current stock status of an item. You can click on the "Mark as Sold" button to conveniently change an item's stock status to sold, which make it no longer appear in the public listing.
+The badge at the top right corner of each slip tells you the current stock status of an listing. You can click on the "Mark as Sold" button to conveniently change an listing's stock status to sold, which make it no longer appear in the public listing.
 
 ![](images/listing-my-2.png)
 
 ### Edit a listing
 
-You can further edit an item by clicking on the "Edit Listing" button. You will be taken to the Edit Listing page, and be able to edit everything about your item: name, description, price, just to name a few.
+You can further edit an listing by clicking on the "Edit Listing" button. You will be taken to the Edit Listing page, and be able to edit everything about your listing: name, description, price, just to name a few.
 
 ![](images/listing-edit-1.png)
 
