@@ -192,7 +192,7 @@ An advertisement without actual users' feedback is not as convincing as the one 
 
 **Josh's Dog:** "Bark, bark! Bark, bark, bark!"
 
-In brief, that proves Wonkes is an epic and misery fail…
+In brief, that proves Wonkes is an epic and misery fail… Bad UI, bored idea, no convenient features, and we can't even gather 5 people to try Wonkes and have to ask a puppy for suggestions: all are evidence showing that Wonkes is doomed.
 
 # Our Team
 
