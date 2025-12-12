@@ -61,7 +61,7 @@ To sign up, you will provide an username, an UH email address (@hawaii.edu email
 
 ### View listings
 
-After signing in, you can browse all listings posted on Wonkes Market through the View Listings page. A listing that is sold or recalled by the seller *will* appear on the listings (it is funny because this is an old bug that we are too lazy to resolve).
+After signing in, you can browse all listings posted on Wonkes Market through the View Listings page.
 
 ![](images/listing-view-1.png)
 
