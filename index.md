@@ -5,6 +5,7 @@
 * [Overview](#overview)
 * [User Guide](#user-guide)
 * [Milestones](#milestones)
+* [Community Feedback](#community-feedback)
 * [Our Team](#our-team)
 
 # Welcome to Wonkes!!
@@ -176,6 +177,22 @@ in the website, and give admin functionality.
 ![](images/project-milestone-3.png)
 
 Milestone 3 was managed using [Wonkes GitHub Project Board M3](https://github.com/orgs/wonkes-manoa/projects/3):
+
+# Community Feedback
+
+An advertisement without actual users' feedback is not as convincing as the one with. We are glad that 5 people whose experienced our Wonkes Market is willing to share their experience and suggestion on improvements.
+
+**Unknown User 1:** "Interesting concept. I enjoyed the ease of signup. The UI could use some improvement. It feels too clunky. Maybe add variety to the top bar."
+
+**Unknown User 2:** "Not bad given the time allocated. Formatting could use a lot of work. UI irregularities are high."
+
+**Fubuma's Dad:** "Fills a niche role, though I'm not too sure how many people would actually use this. It was simple to use, but sort of boring."
+
+**Fubuma's Mom:** "I think it's cute. It'll be a good way for students to socialize. Though, I'd add filters to narrow down the search."
+
+**Josh's Dog:** "Bark, bark! Bark, bark, bark!"
+
+In brief, that proves Wonkes is an epic and misery fail…
 
 # Our Team
 
