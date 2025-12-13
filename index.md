@@ -197,7 +197,7 @@ Alright… at first glance Wonkes Market look a little *doomed*. A boring idea, 
 However, this is not the moment to declare Wonkes Market a misery. Hidden within the criticism are several meaningful strengths:
 
 * Easy to use—simplicity was one of our core goals, and we did it
-* Cute—if you believe it is the best thing on the world (⸝⸝> ᴗ•⸝⸝)
+* Cute—if you believe it is the best thing in the world (⸝⸝> ᴗ•⸝⸝)
 * Social potential—users see Wonkes as a platform that help students connect
 * Fills a niche—there is a problem Wonkes solves, which means there is a potential audience
 
