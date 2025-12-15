@@ -4,7 +4,7 @@
 
 * [Overview](#overview)
 * [User Guide](#user-guide)
-* [Milestones](#milestones)
+* [Milestones and Efforts](#milestones-and-efforts)
 * [Community Feedback](#community-feedback)
 * [Our Team](#our-team)
 
@@ -167,12 +167,10 @@ The goal of Milestone 2 was to create more functionalities that advance the user
 
 Milestone 2 was managed using [Wonkes GitHub Project Board M2](https://github.com/orgs/wonkes-manoa/projects/2):
 
-
 ### Milestone 3: better functionality
 
 The goal of Milestone 3 is to fix existing bugs, add pagination, polish wording
 in the website, and give admin functionality.
-
 
 ### Effort Estimation and Record
 
