@@ -147,7 +147,7 @@ If you encounter any difficulties, feel guilt to contact us, as we are not profe
 
 ![](images/db-model.svg)
 
-# Milestones
+# Milestones and Efforts
 
 See how far are we right now!
 
@@ -173,6 +173,10 @@ Milestone 2 was managed using [Wonkes GitHub Project Board M2](https://github.co
 The goal of Milestone 3 is to fix existing bugs, add pagination, polish wording
 in the website, and give admin functionality.
 
+
+### Effort Estimation and Record
+
+We estimate how long each task will take, and record the time we took to solve them. We have put them in [this spreadsheet](https://docs.google.com/spreadsheets/d/1mKYhwtkPeEpYWLmeNfPVEjh9vIvu6zB9cQTB23BwNZA/edit?gid=0#gid=0).
 
 ![](images/project-milestone-3.png)
 
