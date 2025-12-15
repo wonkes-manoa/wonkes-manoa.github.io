@@ -4,7 +4,8 @@
 
 * [Overview](#overview)
 * [User Guide](#user-guide)
-* [Milestones and Efforts](#milestones-and-efforts)
+* [Milestones](#milestones)
+* [Effort Estimation and Record](#effort-estimation-and-record)
 * [Community Feedback](#community-feedback)
 * [Our Team](#our-team)
 
@@ -147,7 +148,7 @@ If you encounter any difficulties, feel guilt to contact us, as we are not profe
 
 ![](images/db-model.svg)
 
-# Milestones and Efforts
+# Milestones
 
 See how far are we right now!
 
@@ -155,7 +156,7 @@ See how far are we right now!
 
 The goal of Milestone 1 was to create the basic functionalities required for an user to sign in, browse listings, add listings, and contact a seller to initiate a transaction.
 
-Milestone 1 was managed using [Wonkes GitHub Project Board M1](https://github.com/orgs/wonkes-manoa/projects/1):
+Milestone 1 was managed using [Wonkes GitHub Project Board M1](https://github.com/orgs/wonkes-manoa/projects/1).
 
 ![](images/project-milestone-1.png)
 
@@ -165,20 +166,20 @@ The goal of Milestone 2 was to create more functionalities that advance the user
 
 ![](images/project-milestone-2.png)
 
-Milestone 2 was managed using [Wonkes GitHub Project Board M2](https://github.com/orgs/wonkes-manoa/projects/2):
+Milestone 2 was managed using [Wonkes GitHub Project Board M2](https://github.com/orgs/wonkes-manoa/projects/2).
 
 ### Milestone 3: better functionality
 
 The goal of Milestone 3 is to fix existing bugs, add pagination, polish wording
 in the website, and give admin functionality.
 
-### Effort Estimation and Record
-
-We estimate how long each task will take, and record the time we took to solve them. We have put them in [this spreadsheet](https://docs.google.com/spreadsheets/d/1mKYhwtkPeEpYWLmeNfPVEjh9vIvu6zB9cQTB23BwNZA/edit?gid=0#gid=0).
-
 ![](images/project-milestone-3.png)
 
-Milestone 3 was managed using [Wonkes GitHub Project Board M3](https://github.com/orgs/wonkes-manoa/projects/3):
+Milestone 3 was managed using [Wonkes GitHub Project Board M3](https://github.com/orgs/wonkes-manoa/projects/3).
+
+# Effort Estimation and Record
+
+We estimate how long each task will take, and record the time we took to solve them. We have put them in [this spreadsheet](https://docs.google.com/spreadsheets/d/1mKYhwtkPeEpYWLmeNfPVEjh9vIvu6zB9cQTB23BwNZA/edit?gid=0#gid=0).
 
 # Community Feedback
 
